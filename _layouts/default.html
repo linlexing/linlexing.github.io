@@ -5,12 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/bootstrap/dist/css/bootstrap-theme.min.css">
-    <script src="/assets/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <style type="text/css">
-	img {
+	<link rel="stylesheet" href="github-markdown.css">
+	<style>
+    .markdown-body {
+        min-width: 200px;
+        max-width: 790px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    img {
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
@@ -24,12 +27,11 @@
 	-webkit-transition:all .2s ease-in-out;
 	-o-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out
-	}
-
-    </style>
+    }
+	</style>
   </head>
 <body>
-<div class="container">
+<div class="markdown-body">
 {{content}}
 <div id="disqus_thread"></div>
 </div>
